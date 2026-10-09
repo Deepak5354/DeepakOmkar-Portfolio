@@ -1,0 +1,81 @@
+# Deepak Omkar Portfolio
+
+A full-stack recruiter-focused portfolio built with React, Vite, Express, and PostgreSQL-ready architecture.
+
+## Features
+
+- Premium responsive portfolio for a full-stack developer
+- Dark and light theme support
+- Animated hero, smooth transitions, and custom terminal section
+- Project showcase and detailed case study routes
+- Admin login and protected dashboard shell
+- Contact form API with validation and secure backend patterns
+- Express API with rate limiting, helmet, CORS, JWT-ready auth, and environment-based config
+
+## Stack
+
+Frontend
+- React
+- Vite
+- Tailwind CSS
+- Framer Motion
+- GSAP
+- React Router
+- Axios
+- Lucide Icons
+
+Backend
+- Node.js
+- Express.js
+- PostgreSQL-ready Sequelize configuration
+- JWT authentication scaffold
+- bcryptjs password hashing
+- Helmet, CORS, rate limiting
+
+## Project Structure
+
+- frontend/
+- server/
+
+## Setup
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+cp .env.example .env
+npm run dev
+```
+
+### Backend
+
+```bash
+cd server
+cp .env.example .env
+npm install
+npm run dev
+```
+
+## Environment Variables
+
+```env
+PORT=5000
+DATABASE_URL=postgres://username:password@localhost:5432/portfolio
+JWT_SECRET=replace_with_long_secret
+CLIENT_URL=http://localhost:5173
+GITHUB_TOKEN=
+EMAIL_USER=
+EMAIL_PASSWORD=
+```
+
+## Deployment Notes
+
+- Frontend: Vercel / Netlify
+- Backend: Render / Railway / AWS
+- Database: Managed PostgreSQL
+- Set production environment variables separately and never commit secrets
+
+## Notes
+
+This portfolio intentionally uses placeholders where personal details are not provided, as requested.

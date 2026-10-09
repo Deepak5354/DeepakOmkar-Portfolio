@@ -1,0 +1,13 @@
+{
+  "name": "deepak-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix frontend run dev\" \"npm --prefix server run dev\"",
+    "frontend": "npm --prefix frontend run dev",
+    "server": "npm --prefix server run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
